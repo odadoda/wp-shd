@@ -27,7 +27,7 @@
 		<div class="box a"></div>
 		<div class="box b"></div>
 		<div class="box c">
-			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
+			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">shd</a>
 		</div>
 		<div class="box d"></div>
 
