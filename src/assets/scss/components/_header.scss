@@ -1,0 +1,38 @@
+.site-header {
+
+  position: fixed;
+  top: 25px;
+  left: 25px;
+  color: white;
+
+  a {
+    color: white;
+  }
+
+  .box {
+    height: 70px;
+    width: 100px;
+    margin: 0 0 0 20px;
+
+    &.a {
+      background: #f66f38;
+    }
+
+    &.b {
+      background: #f9ee46;
+      height: 24px;
+    }
+
+    &.c {
+      background: #eb7cfb;
+      height: 35px;
+      width: 120px;
+      margin: 0;
+    }
+
+    &.d {
+      background: #f66f38;
+      height: 35px;
+    }
+  }
+}

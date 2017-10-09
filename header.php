@@ -24,7 +24,14 @@
 
 
 	<header class="site-header" role="banner">
-		<div class="site-title-bar title-bar" <?php foundationpress_title_bar_responsive_toggle() ?>>
+		<div class="box a"></div>
+		<div class="box b"></div>
+		<div class="box c">
+			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
+		</div>
+		<div class="box d"></div>
+
+		<!-- <div class="site-title-bar title-bar" <?php foundationpress_title_bar_responsive_toggle() ?>>
 			<div class="title-bar-left">
 				<button class="menu-icon" type="button" data-toggle="<?php foundationpress_mobile_menu_id(); ?>"></button>
 				<span class="site-mobile-title title-bar-title">
@@ -36,7 +43,7 @@
 		<nav class="site-navigation top-bar" role="navigation">
 			<div class="top-bar-left">
 				<div class="site-desktop-title top-bar-title">
-					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
+
 				</div>
 			</div>
 			<div class="top-bar-right">
@@ -47,7 +54,7 @@
 				<?php endif; ?>
 			</div>
 		</nav>
-		
+		 -->
 	</header>
 
 	<div class="container">
