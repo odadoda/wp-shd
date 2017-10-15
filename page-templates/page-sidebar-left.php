@@ -4,6 +4,8 @@ Template Name: Left Sidebar
 */
 get_header(); ?>
 
+<h1>pewpew</h1>
+
 <?php get_template_part( 'template-parts/featured-image' ); ?>
 
 <div class="main-wrap sidebar-left">

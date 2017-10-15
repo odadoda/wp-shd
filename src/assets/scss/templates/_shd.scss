@@ -1,0 +1,51 @@
+html, body {
+    height: 100%;
+}
+
+
+
+.woocommerce, .woocommerce-page {
+
+    h1 {
+        position: absolute;
+        font-size: 72px;
+        font-weight: 100px;
+        z-index: 3;
+        top: 30px;
+        left: 100px;
+    }
+
+    .container {
+        height: 100%;
+    }
+
+    ul.products{
+        height: 100%;
+
+        li.product {
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-color: yellow;
+        }
+    }
+    .main-wrap {
+        margin-top:0;
+        height: 100%;
+    }
+
+    .main-content {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        background: hotpink;
+    }
+
+    .data {
+        position: absolute;
+        right: 0px;
+        background: yellow;
+        bottom: 0px;
+        padding: 20px;
+    }
+}

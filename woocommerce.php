@@ -10,8 +10,8 @@
 
 get_header(); ?>
 
-<div class="main-wrap">
-	<main class="main-content">
+<div class="main-wrap full">
+	<main class="main-content full">
 		<?php woocommerce_content(); ?>
 	</main>
 <?php get_sidebar(); ?>

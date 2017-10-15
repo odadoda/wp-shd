@@ -1,17 +1,19 @@
 .site-header {
 
   position: fixed;
-  top: 25px;
-  left: 25px;
+  top: 155px;
+    left: 85px;
   color: white;
+    z-index: 40;
 
   a {
-    color: white;
-    font-weight: bold;
-    font-size: 3.1em;
-    line-height: 0.7;
-    text-align: right;
-    margin: -8px;
+      color: white;
+  font-weight: bold;
+  font-size: 3.6em;
+  line-height: 1.2;
+  text-align: right;
+  letter-spacing: 14px;
+  margin-left: -63px;
   }
 
   .box {

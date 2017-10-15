@@ -6,6 +6,7 @@ get_header();
 
 ?>
 
+
 <div class="main-wrap">
 	<main class="main-content">
 		<?php woocommerce_content(); ?>
